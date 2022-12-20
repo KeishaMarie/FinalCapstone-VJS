@@ -25,13 +25,19 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(gif|png|avif|jpe?g)$/,
+        test: /\.(gif|png|avif|jpe?g|mp4)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
               outputPath: 'images/'
+            },
+
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'video/'
             }
           }
         ]

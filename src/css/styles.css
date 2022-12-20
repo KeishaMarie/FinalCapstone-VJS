@@ -70,16 +70,18 @@ h1 {
 /* Bio */
 .bio {
   text-align: center;
-  margin-right: 10rem;
+  margin-right: 7rem;
+  margin-top: 1rem;
   width: 50%;
   padding: 8px;
   float: right;
 } 
 
+
 .bio img {
   float: right;
   margin-left: .5rem;
-  shape-outside: ellipse(50% 60%);
+  shape-outside: ellipse(50% 50%);
   width: 300px;
   height: 400px;
   position: relative;
@@ -89,14 +91,15 @@ h1 {
 }
 
 .bio-text {
-padding: 3rem 0 0;
+padding: 2rem 0 0 ;
 }
 
 /* projects */
 .projects {
   margin-top: 60%;
-  margin-left: 4rem;;
-  /* border: 2px solid rgb(134, 90, 186); */
+  margin-left: 4rem;
+  margin-right: 35rem;
+
 }
 
 .project-links:hover {
@@ -105,12 +108,11 @@ padding: 3rem 0 0;
 
 .grid-container-projects {
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 2em;
   grid-template-columns: 30% 30% 30%;
   grid-auto-rows:minmax(80px, auto);
   text-align: center;
-  margin-right: 25rem;
-  /* margin-top: 40rem; */
+  margin-right: 1rem;
   margin-left: 5rem;
   border: 5px ridge rgb(134, 90, 186);  
   box-shadow:rgb(134, 90, 186) 10px 10px 10px;
@@ -155,4 +157,49 @@ padding: 3rem 0 0;
 
 #react {
   height: 100px;
+}
+
+/* video */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+.video-box {
+  display: flex;
+  float: left;
+  position: absolute;
+  width: 560px;
+  height: 160px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+  margin-top: 15rem;
+  margin-left: -7rem;
+}
+
+.video-box video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-box h2 {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-size: 14vw;
+  font-family: "Titan One", cursive;
+  text-align: center;
+  text-transform: lowercase;
+  color: #000;
+  mix-blend-mode: screen;
 }
