@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(24, 24, 24);
+  color: antiquewhite;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: antiquewhite;
+}
+
+.nav-links,
+h1 {
+  flex: 1;
+}
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid rgb(134, 90, 186);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  z-index: -1;
+  backdrop-filter: grayscale();
+}
+
+.link-grow {
+  transform: scale(2);
+  background: rgb(134, 90, 186);
+}
+
+.nav-links li {
+  padding: 1rem;
+}
+
+.hovered-link {
+  color: black;
+}
+
+/* Bio */
+.bio {
+  text-align: center;
+} 
+
+.bio img {
+  width: 300px;
+  height: 400px;
+  z-index: -3;
+  position: relative;
+}
+
+/* project */
+.project-links li {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: antiquewhite;
+}
+
+.project-links:hover {
+  color:black;
+}
