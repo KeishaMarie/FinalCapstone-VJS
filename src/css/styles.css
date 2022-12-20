@@ -85,3 +85,13 @@ h1 {
 .project-links:hover {
   color:black;
 }
+
+/* logo grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.grid-container > div {
+  padding: 1em;
+}
