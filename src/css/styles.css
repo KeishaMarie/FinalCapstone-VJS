@@ -29,6 +29,11 @@ nav {
   color: antiquewhite;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color:antiquewhite
+}
+
 .nav-links,
 h1 {
   flex: 1;
@@ -87,16 +92,11 @@ h1 {
 padding: 3rem 0 0;
 }
 
-/* project */
-/* .project-links li {
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  color: antiquewhite;
-} */
+/* projects */
 .projects {
-  margin-top: 50%;
+  margin-top: 60%;
+  margin-left: 4rem;;
+  /* border: 2px solid rgb(134, 90, 186); */
 }
 
 .project-links:hover {
@@ -112,8 +112,9 @@ padding: 3rem 0 0;
   margin-right: 25rem;
   /* margin-top: 40rem; */
   margin-left: 5rem;
-  
-
+  border: 5px ridge rgb(134, 90, 186);  
+  box-shadow:rgb(134, 90, 186) 10px 10px 10px;
+  border-top-left-radius: 20px;
 }
 
 /* logo grid */
@@ -155,4 +156,3 @@ padding: 3rem 0 0;
 #react {
   height: 100px;
 }
-
