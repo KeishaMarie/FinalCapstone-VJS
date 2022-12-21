@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
   cursor: none;
@@ -91,7 +93,8 @@ h1 {
 }
 
 .bio-text {
-padding: 2rem 0 0 ;
+padding: 2rem 0 0;
+margin-left: 5rem;
 }
 
 /* projects */
@@ -131,6 +134,24 @@ padding: 2rem 0 0 ;
 }
 
 /* skills logos */
+.card {
+  background-color: rgb(134, 90, 186);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(134, 90, 186, 0.2);
+  padding: 10px;
+  margin: 10px;
+}
+
+.skills .flex {
+  flex-wrap: wrap;
+}
+
+.skills .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+}
+
 #csharp {
   height: 100px;
 }
@@ -165,7 +186,7 @@ padding: 2rem 0 0 ;
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-.video-box {
+/* .video-box {
   display: flex;
   float: left;
   position: absolute;
@@ -202,4 +223,4 @@ padding: 2rem 0 0 ;
   text-transform: lowercase;
   color: #000;
   mix-blend-mode: screen;
-}
+} */
