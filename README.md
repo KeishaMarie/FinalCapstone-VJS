@@ -26,7 +26,7 @@ This is a single page portfolio to introduce myself and outlilne my journey to t
 
 ## Known Bugs
 
-* Content load is a little choppy
+* Content load is a little choppy when fade in is enabled
 
 
 ###  Research & Planning Log
